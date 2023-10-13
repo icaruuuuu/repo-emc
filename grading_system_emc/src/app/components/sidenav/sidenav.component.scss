@@ -9,8 +9,8 @@
 .side-nav {
 	width: 230px;
 	height: 100%;
-	background: linear-gradient(150deg, #71b7e6, #7374b3);
-	position: relative;
+	background: linear-gradient(150deg, #71b7e6, #dc6cf8);
+	position: fixed;
 	top: 0;
 	left: 0;
 	padding: 30px 30px;
@@ -18,7 +18,7 @@
 
 .logo {
 	display: block;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 	align-items: center;
 }
 
@@ -75,4 +75,8 @@
 
 .nav-links li:nth-child(4):hover~.active {
 	top: 46%;
+}
+
+.nav-links li:nth-child(5):hover~.active {
+	top: 66%;
 }
