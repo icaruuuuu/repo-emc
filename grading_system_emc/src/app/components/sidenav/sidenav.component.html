@@ -1,49 +1,71 @@
-<!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content=
-		"width=device-width,initial-scale=1.0">
-	<title>side navigation</title>
-	<script src= "https://kit.fontawesome.com/bba3432f3f.js" crossorigin="anonymous"></script>
+  <head>
+ 
+  </head>
+  <body>
 
-</head>
-
-<body>
-	<div >
-		<div class="side-nav">
-			<a href="#" class="logo">
-				<img src="assets/images/emc.jpg" class="logo-img">
-			</a>
-			<ul class="nav-links">
-				<li><a href="#">
-						<i class=""></i>
-						<p>Dashboard</p>
-					</a>
-				</li>
-				<li><a href="manage/students">
-					<i class=""></i>
-					<p>Students</p>
-				</a>
-				</li>
-				<li><a href="manage/teachers">
-					<i class=""></i>
-					<p>Teachers</p>
-				</a>
-				</li>
-
-				<li ><a href="#" >
-					<i class=""></i>
-					<p>Setting</p>
-				</a>
-			    </li>
-				<li><a href="#">
-						<i class=""></i>
-						<p>Logout</p>
-					</a>
-				</li>
-			</ul>
+	<div class="area"></div><nav class="main-menu">
+		<div class="logo">
+			<img src="assets/images/logo.png" class="logo-img">
 		</div>
-	</div>
-</body>
-</html>
+		
+            <ul>
+                <li>
+                    <a href="manage/dashboard">
+                        <i class="fa fa-home fa-2x"></i>
+                        <span class="nav-text">
+                           Dashboard
+                        </span>
+                    </a>                 
+                </li>
+ 
+                <li class="has-subnav">
+                    <a href="#">
+                       <i class="fa fa-wrench  fa-2x"></i>
+                        <span class="nav-text">
+                            User-Management
+                        </span>
+                    </a>                  
+                </li>
+                <li>
+                    <a href="manage/students">
+                        <i class="fa fa-users fa-2x"></i>
+                        <span class="nav-text">
+                            Students
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="manage/teachers">
+                        <i class="fa fa-users fa-2x"></i>
+                        <span class="nav-text">
+                           Teachers
+                        </span>
+                    </a>
+                </li>
+
+                <li>
+            </ul>
+
+            <ul class="logout">               
+				<li>
+				<a href="#">
+					<i class="fa fa-cogs fa-2x"></i>
+					 <span class="nav-text">
+						 Settings
+					 </span>
+				 </a>
+			 	</li>
+
+                <li>
+                   <a href="login">
+                         <i class="fa fa-power-off fa-2x"></i>
+                        <span class="nav-text">
+                            Logout
+                        </span>
+                    </a>
+                </li>  
+            </ul>
+        </nav>
+  </body>
+    </html>

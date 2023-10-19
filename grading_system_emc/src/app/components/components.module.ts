@@ -4,11 +4,10 @@ import { CardComponent } from './card/card.component';
 import { TableComponent } from './table/table.component';
 
 
-
 @NgModule({
   declarations: [
     CardComponent,
-    TableComponent
+    TableComponent,
     ],
   imports: [
     CommonModule,

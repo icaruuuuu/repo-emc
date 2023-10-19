@@ -1,5 +1,5 @@
-<app-card
-    name = "Kim Taehyung"
-    position = "President"
-    company = "Republic of South Korea"
-></app-card>
+<app-card-small *ngFor="let item of cardData"
+    title = "{{item.title}}"
+    value = "{{item.value}}"
+    content = "{{item.content}}"
+></app-card-small>

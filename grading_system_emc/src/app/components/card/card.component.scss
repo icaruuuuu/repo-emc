@@ -1,0 +1,35 @@
+body{
+    margin-top:10px;
+    background:#FAFAFA;
+
+}
+.order-card {
+    color: #fcecec;
+}
+.container {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+  
+.text-center{
+    color: black;
+
+}
+
+.bg-c-blue {
+    background: linear-gradient(65deg,#b96fff,#df6de9);
+}
+
+.card .card-block {
+    padding: 10px;
+}
+
+.order-card i {
+    font-size: 26px;
+}
+
